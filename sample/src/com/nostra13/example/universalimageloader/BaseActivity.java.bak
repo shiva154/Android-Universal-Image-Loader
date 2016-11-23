@@ -27,8 +27,6 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 public abstract class BaseActivity extends Activity {
 
 	protected ImageLoader imageLoader = ImageLoader.getInstance();
-	
-	public String dataValue = null;
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
